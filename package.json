@@ -1,0 +1,24 @@
+{
+  "name": "flutter-javascript-isomorphism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dart2js.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "dartdevc --modules common -o ./dart2js.js ./dart2js.dart && node ./d2js.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjc9620/flutter-javascript-Isomorphism.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjc9620/flutter-javascript-Isomorphism/issues"
+  },
+  "homepage": "https://github.com/gjc9620/flutter-javascript-Isomorphism#readme"
+}
