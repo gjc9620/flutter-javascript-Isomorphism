@@ -58,9 +58,10 @@ String changeList(arg) {
 
   List<Object> newList = new List();
 
-  list.forEach((key, val) {
-    newList.add(val.count * 2);
-  });
+  // list.((key, val) {
+  //   // newList.add(1);
+  //   // newList.add(2);
+  // });
 
   return returnValue(newList);
 }

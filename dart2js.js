@@ -8,7 +8,6 @@ const dart = dart_sdk.dart;
 const dartx = dart_sdk.dartx;
 var dart2js = Object.create(dart.library);
 var $_get = dartx._get;
-var $add = dartx.add;
 var StringL = () => (StringL = dart.constFn(dart.legacy(core.String)))();
 var IdentityMapOfStringL$dynamic = () => (IdentityMapOfStringL$dynamic = dart.constFn(_js_helper.IdentityMap$(StringL(), dart.dynamic)))();
 var MapOfStringL$dynamic = () => (MapOfStringL$dynamic = dart.constFn(core.Map$(StringL(), dart.dynamic)))();
@@ -42,7 +41,6 @@ dart2js.changeList = function changeList(arg) {
   let list = args[$_get]("list");
   let newList = JSArrayOfObjectL().of([]);
   dart.dsend(list, 'forEach', [dart.fn((key, val) => {
-      newList[$add](dart.dsend(dart.dload(val, 'count'), '*', [2]));
     }, dynamicAnddynamicToNullN())]);
   return dart2js.returnValue(newList);
 };
