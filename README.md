@@ -8,3 +8,6 @@ Dart-to-JavaScript compiler (dart2js) version: 2.12.0
 36K	./dart2js.js
 
 
+# dartdevc
+`dartdevc --modules common -o ./dart2js.js ./dart2js.dart`
+需要dart_sdk
