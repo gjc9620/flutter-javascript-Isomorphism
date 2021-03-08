@@ -1,12 +1,12 @@
 # flutter-javascript-Isomorphism
 
+# 转换 dart to js 
+`dart2js -O2  -o ./dart2js.js ./dart2js.dart`
+ 
+# output
+36K	./dart2js.js
 
-```
- dartdevc --modules common -o ./dart2js.js ./dart2js.dart 
- 转换 dart to js 
 
 
-flutter run -d chrome 
-web flutter
+# Dart-to-JavaScript compiler (dart2js) version: 2.12.0
 
-```
