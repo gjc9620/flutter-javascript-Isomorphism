@@ -10,6 +10,7 @@ const callDart = (fun, arg = {})=>{
 } 
 
 
+dart2js.demo();
 
 
 
