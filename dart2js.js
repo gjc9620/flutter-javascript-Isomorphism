@@ -22,6 +22,9 @@ const CT = Object.create({
 });
 var C = [];
 var I = [];
+dart2js.main = function main() {
+  dart2js.demo();
+};
 dart2js.demo = function demo() {
   let str = "Hello";
   core.print(str);
